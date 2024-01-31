@@ -12,9 +12,9 @@ export default function ChatAbout() {
         </p>
         <div className="flex items-center justify-center">
           <Link
-            href=""
+            href="https://github.com/shreyzeous21"
             target="_blank"
-            className="text-red-500 rounded-sm border m-2 p-2 underline cursor-pointer "
+            className="text-black rounded-sm border m-2 p-2 underline cursor-pointer hover:text-white bg-white hover:bg-black"
           >
             Shrey Sadhukhan
           </Link>{" "}

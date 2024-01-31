@@ -33,9 +33,14 @@ export default function ChatHeader({ user }: { user: User | undefined }) {
           <ChatPresence />
         </div>
         {user ? (
-          <Button onClick={handleLogout}>Logout</Button>
+          <>
+            <div className="flex items-center">Made by shrey</div>
+            <Button onClick={handleLogout}>Logout</Button>
+          </>
         ) : (
-          <Button onClick={handleLoginWithGithub}>Login</Button>
+          <>
+            <Button onClick={handleLoginWithGithub}>Login</Button>
+          </>
         )}
       </div>
     </div>
